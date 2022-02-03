@@ -19,4 +19,4 @@ Implementaciones Futuras
 
 Agradecimientos
 - Al canal de Youtube [Magno Efren](https://www.youtube.com/watch?v=KEG-NBVLrSg) por proporcionarme la idea inicial sobre como animar correctamente una gráfica.
-- Al la página de [GeeksforGeeks](https://www.geeksforgeeks.org/evaluate-the-value-of-an-arithmetic-expression-in-reverse-polish-notation-in-java/) por una concisa explicación del algoritmo aplicado en Java.
+- Al Autor(o autores) de la página de [GeeksforGeeks](https://www.geeksforgeeks.org/evaluate-the-value-of-an-arithmetic-expression-in-reverse-polish-notation-in-java/) por una concisa explicación del algoritmo aplicado en Java.
