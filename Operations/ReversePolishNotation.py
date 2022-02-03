@@ -213,37 +213,3 @@ class RPN:
             return result
         else:
             raise ValueError("Sobran elementos a operar. La expresión ingresada no es correcta")
-
-path_operations = r'C:\Users\Mario Alberto\Documents\Cursos extracurriculares\Cosas nuevas python\Calculadora_gráfica\Calculadora_version2\Operations\operaciones.txt'  
-path_results = r'C:\Users\Mario Alberto\Documents\Cursos extracurriculares\Cosas nuevas python\Calculadora_gráfica\Calculadora_version2\Operations\resultados.txt'  
-
-
-'''
-expresion = RPN()
-
-with open(path_operations, 'r', encoding = 'utf-8') as operation, open(path_results, 'r', encoding = 'utf-8') as result:
-    lines_op = operation.readlines()
-    lines_re = result.readlines()
-    for line in range(len(lines_op)):
-        operation = lines_op[line].strip()
-        result = lines_re[line].strip()
-        #print(type(operation))
-        lista_elementos = expresion.Separating_Elements(operation)
-        rpn = expresion.Create_RPN(lista_elementos)
-        resultado = expresion.Evaluate_RPN(rpn)
-        print(f"Lista de elementos: {lista_elementos}")
-        print(f"Notación Polaca Inversa: {rpn}")
-        print(f"Resultado programa: {resultado}")
-        print(f"Resultado: {result}")
-        print("============================================================================================================\n")
-        #print(operation)
-'''
-
-'''expresion = RPN()
-lista = expresion.Separating_Elements('sin⁻¹(25)')
-print(lista)
-Stack_final = expresion.Create_RPN(lista)
-print(Stack_final)
-Resultado = expresion.Evaluate_RPN(Stack_final, "RAD")
-print(Resultado)'''
-
